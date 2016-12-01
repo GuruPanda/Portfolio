@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=colour
+comment0.target=boolean\ setColour(Piece)
+comment0.text=\r\n\ Set\ the\ colour\ that\ this\ player\ will\ be\r\n\ \r\n\ @param\ colour\ \ A\ Piece\ (RED/BLUE)\ that\ this\ player\ will\ be\r\n\ @return\ \ \ true\ indicating\ that\ the\ method\ succeeded\r\n\ \r\n\ @throws\ InvalidColourException\ \ \ A\ colour\ other\ than\ RED/BLUE\ was\ provided\r\n\ @throws\ ColourAlreadySetException\ \ The\ colour\ has\ already\ been\ set\ for\ this\ player.\r\n
+comment1.params=
+comment1.target=Piece\ getColour()
+comment2.params=state
+comment2.target=boolean\ finalGameState(GameState)
+comment2.text=\r\n\ Informs\ the\ player\ of\ the\ final\ game\ state.\ Player\ has\ Won,\ lost.\r\n\ \r\n\ @param\ state\ \ \ either\ WON\ or\ LOST\r\n\ @return\ \ \ true\ indicating\ method\ has\ compleated\ successfully.\r\n\ \r\n
+comment3.params=boardView
+comment3.target=boolean\ freeSpaces(Piece[][])
+comment3.text=\r\n\ Checks\ theentire\ board\ to\ see\ if\ there\ are\ any\ cells\ still\ UNSET.\r\n
+comment4.params=boardView
+comment4.target=MoveInterface\ makeMove(Piece[][])
+comment4.text=\r\n\ Ask\ the\ player\ to\ make\ a\ move.\ If\ the\ \ user\ refuses\ to\ make\ the\ move,\ then\ the\ \r\n\ game\ takes\ the\ refusal\ as\ a\ concession\ of\ the\ game,\ and\ sets\ the\ current\ move\ to\r\n\ conceded.\ If\ user\ doesnt\ input\ y\ or\ n\ then\ the\ method\ reiterates\ the\ method\ and\r\n\ asks\ again.\r\n\ If\ user\ decided\ to\ take\ move,\ then\ class\ asks\ user\ to\ input\ x\ and\ y\ coordinates.\r\n\ Method\ then\ creates\ a\ new\ move\ with\ those\ coordinates.\r\n\ \r\n\ @param\ \ boardView\ \ \ the\ current\ state\ of\ the\ board\r\n\ @return\ \ \ \ \ \ \ \ a\ Move\ object\ representing\ the\ desired\ place\ to\ place\ a\ piece\r\n\ \r\n\ \r\n
+numComments=5
