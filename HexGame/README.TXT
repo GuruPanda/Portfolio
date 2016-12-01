@@ -1,12 +1,1 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+This project creates a very basic HexGame that creates two players and a board using the GameManager, and makes calls to other classes. Of particular interest is the Breadth First Search and other methods in the Board class. This checks whether there is a path from one side of the board to the other, and therefore if someone has won the game.
