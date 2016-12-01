@@ -1,0 +1,19 @@
+IntMan.java:8: error: 'else' without 'if'
+	else if(n<0){
+	^
+IntMan.java:15: error: illegal start of expression
+    public static boolean isPrime(int a){
+    ^
+IntMan.java:15: error: illegal start of expression
+    public static boolean isPrime(int a){
+           ^
+IntMan.java:15: error: ';' expected
+    public static boolean isPrime(int a){
+                 ^
+IntMan.java:15: error: '.class' expected
+    public static boolean isPrime(int a){
+                                      ^
+IntMan.java:15: error: ';' expected
+    public static boolean isPrime(int a){
+                                       ^
+6 errors
